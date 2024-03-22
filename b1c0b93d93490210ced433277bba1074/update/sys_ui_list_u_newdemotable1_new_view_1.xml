@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_newdemotable1" version="2" view="new_view_1">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_number</element>
+            <list_id display_value="u_newdemotable1" element="NULL" name="u_newdemotable1" parent="NULL" relationship="NULL" sys_domain="global" view="ca95023993300210ced433277bba10ba">c8ff417393384210ced433277bba10c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-14 08:41:14</sys_created_on>
+            <sys_id>c4ff417393384210ced433277bba10c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-14 08:41:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_name</element>
+            <list_id display_value="u_newdemotable1" element="NULL" name="u_newdemotable1" parent="NULL" relationship="NULL" sys_domain="global" view="ca95023993300210ced433277bba10ba">c8ff417393384210ced433277bba10c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-14 08:41:14</sys_created_on>
+            <sys_id>4cff417393384210ced433277bba10c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-14 08:41:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_corcomment</element>
+            <list_id display_value="u_newdemotable1" element="NULL" name="u_newdemotable1" parent="NULL" relationship="NULL" sys_domain="global" view="ca95023993300210ced433277bba10ba">c8ff417393384210ced433277bba10c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-14 08:41:14</sys_created_on>
+            <sys_id>ccff417393384210ced433277bba10c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-14 08:41:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_corid</element>
+            <list_id display_value="u_newdemotable1" element="NULL" name="u_newdemotable1" parent="NULL" relationship="NULL" sys_domain="global" view="ca95023993300210ced433277bba10ba">c8ff417393384210ced433277bba10c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-14 08:41:14</sys_created_on>
+            <sys_id>40ff417393384210ced433277bba10c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-14 08:41:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="u_newdemotable1" element="NULL" name="u_newdemotable1" parent="NULL" relationship="NULL" sys_domain="global" view="ca95023993300210ced433277bba10ba">c8ff417393384210ced433277bba10c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-14 08:41:14</sys_created_on>
+            <sys_id>c0ff417393384210ced433277bba10c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-14 08:41:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_newdemotable1</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-14 08:41:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8ff417393384210ced433277bba10c4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>u_newdemotable1</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+            <sys_update_name>sys_ui_list_u_newdemotable1_new_view_1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 09:14:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="New View 1" name="new_view_1">ca95023993300210ced433277bba10ba</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e65709fb30000001</claim_timestamp>
+        <metadata_update_name>sys_ui_list_u_newdemotable1_new_view_1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:23</sys_created_on>
+        <sys_id>2f34ae5693c10210ced433277bba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:23</sys_updated_on>
+    </sys_claim>
+</record_update>

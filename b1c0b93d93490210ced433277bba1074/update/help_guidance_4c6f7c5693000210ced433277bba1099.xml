@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="help_guidance">
+    <help_guidance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_route>now/now-assist-admin</app_route>
+        <auto_launch_order/>
+        <checklist/>
+        <context>skills</context>
+        <description>Turn on and configure Chat skills to use generative AI for chat-related functionality in the Agent Workspace for HR Case Management, Core UI, and Now Assist panel.</description>
+        <eh_content display_value="now-assist-cap-chat-assist-hrsd">c46f7c5693000210ced433277bba1099</eh_content>
+        <name>Chat feature for HRSD</name>
+        <order>10</order>
+        <roles/>
+        <route_params>{"params":{"featureId":"68157e108849b110f8777b97b14a6afc"}}</route_params>
+        <snc_created>false</snc_created>
+        <status>published</status>
+        <sys_class_name>help_guidance</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-01 08:50:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c6f7c5693000210ced433277bba1099</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Chat feature for HRSD</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>help_guidance_4c6f7c5693000210ced433277bba1099</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:02</sys_updated_on>
+        <topic_id>now-assist-cap-chat-assist-hrsd</topic_id>
+        <type>embedded_help</type>
+        <version>vancouver</version>
+    </help_guidance>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c6f7c5693000210ced433277bba1099"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e65704c1b0000001</claim_timestamp>
+        <metadata_update_name>help_guidance_4c6f7c5693000210ced433277bba1099</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:02</sys_created_on>
+        <sys_id>9624aa1693c10210ced433277bba1095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:02</sys_updated_on>
+    </sys_claim>
+</record_update>

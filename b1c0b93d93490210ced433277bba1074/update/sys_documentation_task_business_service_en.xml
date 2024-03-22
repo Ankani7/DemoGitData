@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="business_service" label="Service" language="en" table="task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>business_service</element>
+            <help/>
+            <hint/>
+            <label>Service</label>
+            <language>en</language>
+            <name>task</name>
+            <plural>Services</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-10-07 01:13:06</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Service</sys_name>
+            <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">8f64bce83c31311068bcf327dfe37f7e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+            <sys_update_name>sys_documentation_task_business_service_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 09:13:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e65701e3a0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_task_business_service_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:13:50</sys_created_on>
+        <sys_id>eb146ed293c10210ced433277bba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:50</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e65701e390000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_task_business_service_en</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.cmdb</previous_claim_name>
+        <previous_claim_scope>com.snc.cmdb</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:13:50</sys_created_on>
+        <sys_id>af146ed293c10210ced433277bba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:50</sys_updated_on>
+    </sys_claim>
+</record_update>

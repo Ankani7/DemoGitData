@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>ParentExtendingTable(task)</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_parentextendingtable_task</name>
+        <number_ref display_value="PET">a8a4870793700210ced433277bba103f</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="TestExtendingTable" name="u_testextendingtable">ec13cf0393700210ced433277bba109d</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-12 09:11:44</sys_created_on>
+        <sys_id>ba63cf8393700210ced433277bba1035</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ParentExtendingTable(task)</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_db_object_ba63cf8393700210ced433277bba1035</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:41</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="u_parentextendingtable_task_user" name="u_parentextendingtable_task_user">13b307c393700210ced433277bba1048</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e656ffc490000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_ba63cf8393700210ced433277bba1035</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:13:41</sys_created_on>
+        <sys_id>911426d293c10210ced433277bba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:41</sys_updated_on>
+    </sys_claim>
+</record_update>

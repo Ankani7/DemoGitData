@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Related 3" section_id="6ad5027993300210ced433277bba1036" sys_domain="global" table="u_newdemotable1" version="3" view="new_view_1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_user</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 07:49:17</sys_created_on>
+            <sys_id>dc8ac2bd93300210ced433277bba10f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related 3" display_value="Related 3" name="u_newdemotable1" sys_domain="global" view="ca95023993300210ced433277bba10ba">6ad5027993300210ced433277bba1036</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 07:49:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.u_newdemotable1.REL:efd9ce7d93300210ced433277bba1084</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 07:49:17</sys_created_on>
+            <sys_id>548ac2bd93300210ced433277bba10fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related 3" display_value="Related 3" name="u_newdemotable1" sys_domain="global" view="ca95023993300210ced433277bba10ba">6ad5027993300210ced433277bba1036</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 07:49:17</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Related 3</caption>
+            <header>false</header>
+            <name>u_newdemotable1</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 07:28:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ad5027993300210ced433277bba1036</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>u_newdemotable1</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+            <sys_update_name>sys_ui_section_6ad5027993300210ced433277bba1036</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 09:13:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New View 1" name="new_view_1">ca95023993300210ced433277bba10ba</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e657029cc0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_6ad5027993300210ced433277bba1036</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:13:53</sys_created_on>
+        <sys_id>d424221693c10210ced433277bba10be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:53</sys_updated_on>
+    </sys_claim>
+</record_update>
