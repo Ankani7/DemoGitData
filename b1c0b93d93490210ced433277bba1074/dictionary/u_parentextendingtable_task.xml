@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ba63cf8393700210ced433277bba1035" extends="u_testextendingtable" label="ParentExtendingTable(task)" max_length="40" name="u_parentextendingtable_task" type="collection"/>
-</database>

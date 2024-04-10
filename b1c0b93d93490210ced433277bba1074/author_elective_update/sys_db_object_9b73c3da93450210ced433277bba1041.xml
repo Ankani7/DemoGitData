@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Ndt2</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_ndt2</name>
+        <number_ref display_value="NDT">42a387da93450210ced433277bba10c2</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 11:31:37</sys_created_on>
+        <sys_id>9b73c3da93450210ced433277bba1041</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ndt2</sys_name>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_db_object_9b73c3da93450210ced433277bba1041</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 11:31:38</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemoTable">b1c0b93d93490210ced433277bba1074</application>
+        <file_path/>
+        <instance_id>504747c91bd6791c39a54089bd4bcbc5</instance_id>
+        <instance_name>dev201707</instance_name>
+        <name>sys_db_object_9b73c3da93450210ced433277bba1041</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Ndt2</label><live_feed_enabled>false</live_feed_enabled><name>u_ndt2</name><number_ref display_value="NDT">42a387da93450210ced433277bba10c2</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 11:31:37</sys_created_on><sys_id>9b73c3da93450210ced433277bba1041</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Ndt2</sys_name><sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package><sys_policy/><sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope><sys_update_name>sys_db_object_9b73c3da93450210ced433277bba1041</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 11:31:38</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>107623266</payload_hash>
+        <record_name>Ndt2</record_name>
+        <reverted_from/>
+        <source>50076ed693c10210ced433277bba1086</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 11:31:38</sys_created_on>
+        <sys_id>06a387da93450210ced433277bba10c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e65ee45e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 11:31:38</sys_updated_on>
+        <type>Table</type>
+        <update_guid>caa387da38450210bffb4516f8470ac5</update_guid>
+        <update_guid_history>caa387da38450210bffb4516f8470ac5:107623266,0ea387da1d450210b1fa2d2050ff7ac0:-1601595909</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:05:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>5a1046a794e84216ad66046dd88b46b9</sys_id>
+        <sys_metadata>9b73c3da93450210ced433277bba1041</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ndt2</sys_name>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_scope_delete display_value="">2752f10bfa274c188fa7bfab5bf26e90</sys_scope_delete>
+        <sys_update_name>sys_db_object_9b73c3da93450210ced433277bba1041</sys_update_name>
+        <sys_update_version display_value="sys_db_object_9b73c3da93450210ced433277bba1041">06a387da93450210ced433277bba10c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:05:38</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18ec7bc76940000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_9b73c3da93450210ced433277bba1041</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 11:20:00</sys_created_on>
+        <sys_id>c537786093650210ced433277bba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 11:20:00</sys_updated_on>
+    </sys_claim>
+</record_update>

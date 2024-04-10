@@ -12,6 +12,7 @@ UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 	//System update
 	displayUserDetails : function(){
 		
+		//By quering the table
 		var gr = new GlideRecord ('sys_user');
 		gr.addQuery('sys_id', this.getParameter('sysparm_u'));
 		gr.query();
@@ -26,6 +27,8 @@ UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 		return JSON.stringify(obj);
 	},
 	
+
+	//Without querying the table
 	ud : function(){
 		var us = new GlideRecord('sys_user');
 		us.get(this.getParameter('sysparm_userID'));
@@ -41,7 +44,7 @@ UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
 	},
 	
-
+	//byr
 	ad : function(){
 		var an = new GlideRecord('sys_user');
 		//us.get(this.getParameter('sysparm_lname'));
@@ -60,6 +63,20 @@ UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 	},
 
 
+	corid : function(){
+		var cid = new GlideRecord('sys_user');
+		cid.addQuery('sys_id', this.getParameter('sysparm_fnName'));
+		cid.query();
+		var obj = {};
+		if(cid.next()){
+			obj.cord = cid.getValue('name');
+			obj.cdis = cid.getValue('email');
+		}
+
+		return JSON.stringify(obj);
+
+	},
+
 	
     type: 'UserDetails'
 });]]></script>
@@ -67,14 +84,14 @@ UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-04 08:58:10</sys_created_on>
         <sys_id>03d175a893b00210ced433277bba102a</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>UserDetails</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_script_include_03d175a893b00210ced433277bba102a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-22 09:14:23</sys_updated_on>
+        <sys_updated_on>2024-04-04 11:30:02</sys_updated_on>
     </sys_script_include>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>

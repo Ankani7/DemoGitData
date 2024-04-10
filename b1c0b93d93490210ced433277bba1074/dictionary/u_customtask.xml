@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c9bfcaea93d10210ced433277bba1065" extends="task" label="CustomTask" max_length="40" name="u_customtask" type="collection"/>
+</database>

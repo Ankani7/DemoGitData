@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="ec13cf0393700210ced433277bba109d" extends="task" label="TestExtendingTable" max_length="40" name="u_testextendingtable" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Test Fname" max_length="40" name="u_test_fname" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" label="Test Fname" max_length="40" name="u_test_fname" type="string"/>
     </element>
 </database>

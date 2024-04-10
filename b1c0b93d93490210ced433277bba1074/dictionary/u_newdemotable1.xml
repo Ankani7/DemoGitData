@@ -3,18 +3,23 @@
         <element attributes="edge_encryption_enabled=true" label="Category" max_length="40" name="u_category" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUser().lastName" dynamic_default_value="8cfe4b76eb330100d4360c505206fe37" label="Correlation ID" max_length="40" name="u_corid" type="string" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUser().firstName" dynamic_default_value="629e0b76eb330100d4360c505206fefa" label="Current User" max_length="40" name="u_current_user" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_1" type="journal"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Name" max_length="32" name="u_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Product" max_length="40" name="u_product" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Sub Category" max_length="40" name="u_sub_category" type="string"/>
         <element attributes="encode_utf8=false" label="Task" max_length="32" name="u_task" reference="task" type="reference"/>
         <element attributes="encode_utf8=false" label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
-        <index name="index">
+        <index name="index2">
+            <element name="u_name"/>
+        </index>
+        <index name="index3">
             <element name="u_task"/>
         </index>
-        <index name="index2">
+        <index name="index4">
             <element name="u_user"/>
         </index>
     </element>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-12 09:11:45</sys_created_on>
+        <sys_id>13b347c393700210ced433277bba1084</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_parentextendingtable_task.admin</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_security_acl display_value="u_parentextendingtable_task">53b347c393700210ced433277bba1081</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_13b347c393700210ced433277bba1084</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 07:55:03</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e65709c7b0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_13b347c393700210ced433277bba1084</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:22</sys_created_on>
+        <sys_id>9734ae5693c10210ced433277bba100f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:22</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemoTable">b1c0b93d93490210ced433277bba1074</application>
+        <file_path/>
+        <instance_id>504747c91bd6791c39a54089bd4bcbc5</instance_id>
+        <instance_name>dev201707</instance_name>
+        <name>sys_security_acl_role_13b347c393700210ced433277bba1084</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-12 09:11:45</sys_created_on><sys_id>13b347c393700210ced433277bba1084</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_parentextendingtable_task.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope><sys_security_acl display_value="u_parentextendingtable_task">53b347c393700210ced433277bba1081</sys_security_acl><sys_update_name>sys_security_acl_role_13b347c393700210ced433277bba1084</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-05 07:55:03</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role><sys_claim action="INSERT_OR_UPDATE"><claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope><claim_timestamp>18e65709c7b0000001</claim_timestamp><metadata_update_name>sys_security_acl_role_13b347c393700210ced433277bba1084</metadata_update_name><previous_claim_app_version>1.0.0</previous_claim_app_version><previous_claim_name>DemoTable</previous_claim_name><previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 09:14:22</sys_created_on><sys_id>9734ae5693c10210ced433277bba100f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 09:14:22</sys_updated_on></sys_claim></record_update>]]></payload>
+        <payload_hash>828878947</payload_hash>
+        <record_name>u_parentextendingtable_task.admin</record_name>
+        <reverted_from/>
+        <source>cdf626d693c10210ced433277bba1004</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 07:55:03</sys_created_on>
+        <sys_id>8e581ab693510210ced433277bba10f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ead41069e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 07:55:03</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>46581ab62051021020cccace4b6cb4f4</update_guid>
+        <update_guid_history>46581ab62051021020cccace4b6cb4f4:828878947,9334ae56b2c10210071021674dc81612:-1691262559,8034225648c102102a1bcb9163e95fc3:2002517865,205dda9a3e810210305f7ba46b206303:1910623767,54d1de9a5d4102100fbc7f6b73b32e73:-1847157271,6dc1169a0b410210f1f38ef9bd9a3c08:385331383,dbb347c3d27002106f5765e183d7fd85:1910623767</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_parentextendingtable_task.admin">324c923293910210ced433277bba10ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 08:12:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4cbf63532eb8497a99fa3e63e28fe601</sys_id>
+        <sys_metadata>13b347c393700210ced433277bba1084</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_parentextendingtable_task.admin</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent display_value="">53b347c393700210ced433277bba1081</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_scope_delete display_value="">2752f10bfa274c188fa7bfab5bf26e90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_13b347c393700210ced433277bba1084</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_13b347c393700210ced433277bba1084">8e581ab693510210ced433277bba10f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 08:12:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

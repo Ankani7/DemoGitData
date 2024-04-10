@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="u_ndt2">u_ndt2</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>NDT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 11:31:38</sys_created_on>
+        <sys_id>42a387da93450210ced433277bba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NDT</sys_name>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_number_42a387da93450210ced433277bba10c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 11:31:38</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemoTable">b1c0b93d93490210ced433277bba1074</application>
+        <file_path/>
+        <instance_id>504747c91bd6791c39a54089bd4bcbc5</instance_id>
+        <instance_name>dev201707</instance_name>
+        <name>sys_number_42a387da93450210ced433277bba10c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_ndt2">u_ndt2</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>NDT</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 11:31:38</sys_created_on><sys_id>42a387da93450210ced433277bba10c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NDT</sys_name><sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package><sys_policy/><sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope><sys_update_name>sys_number_42a387da93450210ced433277bba10c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 11:31:38</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>931624968</payload_hash>
+        <record_name>NDT</record_name>
+        <reverted_from/>
+        <source>50076ed693c10210ced433277bba1086</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 11:31:38</sys_created_on>
+        <sys_id>0aa387da93450210ced433277bba10d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e65ee46a60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 11:31:38</sys_updated_on>
+        <type>Number</type>
+        <update_guid>4ea387da464502105bcfc2b4e2e630d5</update_guid>
+        <update_guid_history>4ea387da464502105bcfc2b4e2e630d5:931624968</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:05:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>742ab24aca63481089a77ccfa8cad7d1</sys_id>
+        <sys_metadata>42a387da93450210ced433277bba10c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NDT</sys_name>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_parent display_value="">9b73c3da93450210ced433277bba1041</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_scope_delete display_value="">2752f10bfa274c188fa7bfab5bf26e90</sys_scope_delete>
+        <sys_update_name>sys_number_42a387da93450210ced433277bba10c2</sys_update_name>
+        <sys_update_version display_value="sys_number_42a387da93450210ced433277bba10c2">0aa387da93450210ced433277bba10d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:05:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

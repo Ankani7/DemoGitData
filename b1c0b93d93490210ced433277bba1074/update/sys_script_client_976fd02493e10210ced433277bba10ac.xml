@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_description</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ShortDescConfirmation</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+
+	var status = confirm('Are you sure?');
+	if(status){
+		saveAndClose = true;
+	}else{
+		saveAndClose = false;
+	
+	}
+
+
+ callback(saveAndClose); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 09:49:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>976fd02493e10210ced433277bba10ac</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ShortDescConfirmation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_script_client_976fd02493e10210ced433277bba10ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 09:54:09</sys_updated_on>
+        <table>u_newdemotable1</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18ec76ddd040000001</claim_timestamp>
+        <metadata_update_name>sys_script_client_976fd02493e10210ced433277bba10ac</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 09:54:09</sys_created_on>
+        <sys_id>138320a893e10210ced433277bba10bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 09:54:09</sys_updated_on>
+    </sys_claim>
+</record_update>

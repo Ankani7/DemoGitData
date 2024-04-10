@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>NewDemoTable1</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_newdemotable1</name>
+        <number_ref display_value="NDT">e557c2c793373110ced433277bba1003</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 11:39:07</sys_created_on>
+        <sys_id>6bc5824793373110ced433277bba10b1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>NewDemoTable1</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_db_object_6bc5824793373110ced433277bba10b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:12:32</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="u_newdemotable1_user" name="u_newdemotable1_user">26f5024793373110ced433277bba10f4</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18ec77eb08d0000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_6bc5824793373110ced433277bba10b1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:12:32</sys_created_on>
+        <sys_id>6cc7686c93e10210ced433277bba1014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:12:32</sys_updated_on>
+    </sys_claim>
+</record_update>

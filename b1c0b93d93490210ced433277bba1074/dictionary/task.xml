@@ -39,6 +39,8 @@
         <element choice="2" label="Demo Table " max_length="32" name="u_demo_table" reference="u_newdemotable1" type="reference" use_dependent_field="true" use_dynamic_default="true">
             <choice/>
         </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="NDT2" max_length="32" name="u_ndt2" reference="u_ndt2" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="NewDemoTable" max_length="32" name="u_newdemotable" reference="u_newdemotable1" type="reference"/>
         <index name="index">
             <element name="a_ref_1"/>
             <element name="active"/>
@@ -177,10 +179,18 @@
             <element name="active"/>
         </index>
         <index name="index35">
-            <element name="universal_request"/>
+            <element name="u_ndt2"/>
             <element name="active"/>
         </index>
         <index name="index36">
+            <element name="u_newdemotable"/>
+            <element name="active"/>
+        </index>
+        <index name="index37">
+            <element name="universal_request"/>
+            <element name="active"/>
+        </index>
+        <index name="index38">
             <element name="wf_activity"/>
             <element name="active"/>
         </index>
