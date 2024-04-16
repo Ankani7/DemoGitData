@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="80dc030147610210c5008c64116d43de" extends="task" label="CusDemoTab" max_length="40" name="u_cusdemotab" type="collection"/>
+</database>
