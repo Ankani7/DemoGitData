@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
+        <action_name>reload_page</action_name>
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
@@ -27,10 +27,62 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages>CusMsg</messages>
-        <name>Create New CT</name>
-        <onclick>gn()</onclick>
+        <name>Populate values</name>
+        <onclick>populateValues()</onclick>
         <order>100</order>
-        <script><![CDATA[function gn(){
+        <script><![CDATA[// Client Side Scripting
+function populateValues(){
+
+	var av = g_form.getValue('assigned_to');
+	
+
+	var ga = new GlideAjax('UserDetails');
+	ga.addParam('sysparm_name', 'ad');
+	ga.addParam('sysparm_lname', av);
+	ga.getXMLWait();
+
+		var answer = ga.getAnswer();
+		var parsedanswer = JSON.parse(answer);
+		g_form.clearValue('u_first_name');
+		g_form.clearValue('u_last_name');
+		g_form.clearValue('u_email');
+	if(av!=''){
+		g_form.setValue('u_first_name', parsedanswer.fe);
+		g_form.setValue('u_last_name', parsedanswer.le);
+		g_form.setValue('u_email', parsedanswer.ne);
+	}
+	
+		gsftSubmit(null, g_form.getElement(), 'reload_page');
+
+}
+// Server Side Scripting	
+		current.update();
+		action.setRedirectURL(current);
+
+	var serVal = current.number;
+//action.setRedirectURL(current);
+var a = new GlideRecord('u_customtask');
+	a.initialize();
+	a.short_description = 'Parent Rec Num '+ serVal;
+	a.parent = serVal;
+	a.insert();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // var pc = g_form.getValue('number');
 // var ct = new GlideRecord('u_customtask');
 // ct.initialize();
@@ -39,22 +91,10 @@
 // ct.insert();
 //action.setRedirectURL(current);
 
- var url = 'u_customtask.do?sysid=-1&u_parent_case=';
+ //var url = 'u_customtask.do?sysid=-1&u_parent_case=';
 // window.open(URL, 'u_customtask.do?sysid=-1');
 // action.setRedirectURL(current);
 
-
-//Unable to use GlideAjax
-var aj = new GlideAjax ('CustomTaskSi');
-aj.addParam('sysparm_name', 'updateParentField');
-aj.addParam('sysparm_cv', '');
-aj.getXMLWait(val);
-
-function val (response){
-	var ans = JSON.parse(response);
-	alert(ans);
-}
-}
 
 // ct.initialize();
 // ct.setValue('short_description', cn);
@@ -101,7 +141,9 @@ function val (response){
 // 	ct.initialize();
 // 	ct.short_description = 'Created by UI Action';
 //     ct.insert();
-// }]]></script>
+// }
+// g_form.save();
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -112,15 +154,15 @@ function val (response){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0674e75647250210c5008c64116d43fe</sys_id>
-        <sys_mod_count>97</sys_mod_count>
-        <sys_name>Create New CT</sys_name>
+        <sys_mod_count>151</sys_mod_count>
+        <sys_name>Populate values</sys_name>
         <sys_overrides/>
         <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_ui_action_0674e75647250210c5008c64116d43fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-16 14:35:57</sys_updated_on>
+        <sys_updated_on>2024-04-18 09:12:55</sys_updated_on>
         <table>u_customtask</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

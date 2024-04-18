@@ -9,9 +9,9 @@
         <name>UserDetails</name>
         <script><![CDATA[var UserDetails = Class.create();
 UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	
 	//System update
-	displayUserDetails : function(){
-		
+	displayUserDetails : function(){		
 		//By quering the table
 		var gr = new GlideRecord ('sys_user');
 		gr.addQuery('sys_id', this.getParameter('sysparm_u'));
@@ -52,8 +52,9 @@ UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 		//an.query();
 		var obj = {};
 		if(an.get(this.getParameter('sysparm_lname'))){
+			obj.fe = an.getValue('first_name')
 			obj.le = an.getValue('last_name');
-			obj.ne = an.getValue('name');
+			obj.ne = an.getValue('email');
 			//gs.log(us.first_name + ' '+'fname value');
 		}
 
@@ -84,14 +85,14 @@ UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-04 08:58:10</sys_created_on>
         <sys_id>03d175a893b00210ced433277bba102a</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>UserDetails</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_script_include_03d175a893b00210ced433277bba102a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-04 11:30:02</sys_updated_on>
+        <sys_updated_on>2024-04-18 08:15:21</sys_updated_on>
     </sys_script_include>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
