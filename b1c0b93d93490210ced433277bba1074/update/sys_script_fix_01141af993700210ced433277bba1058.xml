@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Test</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// var us = new GlideRecord ('u_newdemotable1');
+// 	us.addEncodedQuery('u_user=6816f79cc0a8016401c5a33be04be441');
+// 	us.query();
+// 	if(us.next()){
+
+		
+// 		gs.print(us.u_number);
+// 	//current.addEncodedQuery('ref_incident.caller_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe');
+
+// 	}
+
+
+var a = new GlideAjax ('UserDetails');
+ga.addParam('sysparm', 'ds');
+ga.addParam('sysparm_u', g_form.getValue('u_name'));
+ga.getXMLAnswer(ud);
+	g_form.addInfoMessage('this is user '+ g_form.getValue('u_name'));
+
+	function ud (response){
+		var answer =response.responseXML.documentElement.getAttribute("answer");
+		//var parsedanswer = JSON.parse(answer);
+
+		g_form.setValue('u_corid', answer);
+		gs.print(answer);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 08:31:16</sys_created_on>
+        <sys_id>01141af993700210ced433277bba1058</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_script_fix_01141af993700210ced433277bba1058</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:19</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e657090ae0000001</claim_timestamp>
+        <metadata_update_name>sys_script_fix_01141af993700210ced433277bba1058</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:19</sys_created_on>
+        <sys_id>7a34aa5693c10210ced433277bba105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:19</sys_updated_on>
+    </sys_claim>
+</record_update>

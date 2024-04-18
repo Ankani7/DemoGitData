@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="help_guidance">
+    <help_guidance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_route>now/workplace-management</app_route>
+        <auto_launch_order/>
+        <checklist/>
+        <context>maintenance-plan</context>
+        <description>View the maintenance plan records and the workplace cases associated with the maintenances.</description>
+        <eh_content display_value="planrecords-and-maintenancecases">c96ffc5693000210ced433277bba10ee</eh_content>
+        <name>Plan records and Maintenance cases</name>
+        <order>200</order>
+        <roles/>
+        <route_params/>
+        <snc_created>false</snc_created>
+        <status>published</status>
+        <sys_class_name>help_guidance</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-01 08:50:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>416ffc5693000210ced433277bba10ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Plan records and Maintenance cases</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>help_guidance_416ffc5693000210ced433277bba10ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:58</sys_updated_on>
+        <topic_id>planrecords-and-maintenancecases</topic_id>
+        <type>embedded_help</type>
+        <version>vancouver</version>
+    </help_guidance>
+    <sys_translated_text action="delete_multiple" query="documentkey=416ffc5693000210ced433277bba10ef"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e65703dd40000001</claim_timestamp>
+        <metadata_update_name>help_guidance_416ffc5693000210ced433277bba10ef</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:13:58</sys_created_on>
+        <sys_id>2124a61693c10210ced433277bba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:58</sys_updated_on>
+    </sys_claim>
+</record_update>

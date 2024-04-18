@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="ParentExtendingTable(task)">57b347c393700210ced433277bba104b</application>
+        <filter/>
+        <name>ParentExtendingTable(task)</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>u_parentextendingtable_task_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-12 09:11:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5bb347c393700210ced433277bba104d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ParentExtendingTable(task)</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_ui_module_5bb347c393700210ced433277bba104d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:04</sys_updated_on>
+        <table>u_parentextendingtable_task</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e6570545c0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_module_5bb347c393700210ced433277bba104d</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:04</sys_created_on>
+        <sys_id>f2242e1693c10210ced433277bba107e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:04</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemoTable">b1c0b93d93490210ced433277bba1074</application>
+        <file_path/>
+        <instance_id>504747c91bd6791c39a54089bd4bcbc5</instance_id>
+        <instance_name>dev201707</instance_name>
+        <name>sys_ui_module_5bb347c393700210ced433277bba104d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ParentExtendingTable(task)">57b347c393700210ced433277bba104b</application><filter/><name>ParentExtendingTable(task)</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_parentextendingtable_task_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-12 09:11:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5bb347c393700210ced433277bba104d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>ParentExtendingTable(task)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope><sys_update_name>sys_ui_module_5bb347c393700210ced433277bba104d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 09:14:04</sys_updated_on><table>u_parentextendingtable_task</table><uncancelable>false</uncancelable><view_name/></sys_ui_module><sys_claim action="INSERT_OR_UPDATE"><claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope><claim_timestamp>18e6570545c0000001</claim_timestamp><metadata_update_name>sys_ui_module_5bb347c393700210ced433277bba104d</metadata_update_name><previous_claim_app_version>1.0.0</previous_claim_app_version><previous_claim_name>DemoTable</previous_claim_name><previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 09:14:04</sys_created_on><sys_id>f2242e1693c10210ced433277bba107e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 09:14:04</sys_updated_on></sys_claim></record_update>]]></payload>
+        <payload_hash>1780632215</payload_hash>
+        <record_name>ParentExtendingTable(task)</record_name>
+        <reverted_from/>
+        <source>92da061e93010210ced433277bba105e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:04</sys_created_on>
+        <sys_id>fe242e1693c10210ced433277bba1081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e657054820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b6242e1669c102107c98ca1c8e660b81</update_guid>
+        <update_guid_history>b6242e1669c102107c98ca1c8e660b81:1780632215,091d529a04810210bed918a685c915fb:1163517095,dcc1de5a1a410210d191869015ff4adb:667813469,1fb347c327700210cf6f04a5bbb1144e:1163517095</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 08:12:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0d2e5f0f43844ad2818da26993f6e604</sys_id>
+        <sys_metadata>5bb347c393700210ced433277bba104d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ParentExtendingTable(task)</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_scope_delete display_value="">2752f10bfa274c188fa7bfab5bf26e90</sys_scope_delete>
+        <sys_update_name>sys_ui_module_5bb347c393700210ced433277bba104d</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_5bb347c393700210ced433277bba104d">fe242e1693c10210ced433277bba1081</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 08:12:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

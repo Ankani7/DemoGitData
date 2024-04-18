@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="7c04cfda93450210ced433277bba1019" sys_domain="global" table="u_ndt2" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-22 11:33:11</sys_created_on>
+            <sys_id>fc04431e93450210ced433277bba10e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_ndt2" sys_domain="global" view="Default view">7c04cfda93450210ced433277bba1019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 11:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>u_ndt2</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-22 11:33:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c04cfda93450210ced433277bba1019</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ndt2</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+            <sys_update_name>sys_ui_section_7c04cfda93450210ced433277bba1019</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 11:33:10</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemoTable">b1c0b93d93490210ced433277bba1074</application>
+        <file_path/>
+        <instance_id>504747c91bd6791c39a54089bd4bcbc5</instance_id>
+        <instance_name>dev201707</instance_name>
+        <name>sys_ui_section_7c04cfda93450210ced433277bba1019</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="7c04cfda93450210ced433277bba1019" sys_domain="global" table="u_ndt2" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 11:33:11</sys_created_on><sys_id>fc04431e93450210ced433277bba10e6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_ndt2" sys_domain="global" view="Default view">7c04cfda93450210ced433277bba1019</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 11:33:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_ndt2</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 11:33:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7c04cfda93450210ced433277bba1019</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ndt2</sys_name><sys_overrides/><sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package><sys_policy/><sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope><sys_update_name>sys_ui_section_7c04cfda93450210ced433277bba1019</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 11:33:10</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1193140622</payload_hash>
+        <record_name>NDT2</record_name>
+        <reverted_from/>
+        <source>50076ed693c10210ced433277bba1086</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 11:33:11</sys_created_on>
+        <sys_id>b804431e93450210ced433277bba10e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e65efb2110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 11:33:11</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7004431e44450210658e00dd72bc0de8</update_guid>
+        <update_guid_history>7004431e44450210658e00dd72bc0de8:1193140622,7804cfda45450210f7fea78d0a6b8f1c:1209940507</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:05:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>a9c1bb3322f74d3e861a6e3c03eff851</sys_id>
+        <sys_metadata>7c04cfda93450210ced433277bba1019</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ndt2</sys_name>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_parent display_value="">9b73c3da93450210ced433277bba1041</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_scope_delete display_value="">2752f10bfa274c188fa7bfab5bf26e90</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7c04cfda93450210ced433277bba1019</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7c04cfda93450210ced433277bba1019">b804431e93450210ced433277bba10e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:05:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

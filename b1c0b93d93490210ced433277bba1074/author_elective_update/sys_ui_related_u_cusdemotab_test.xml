@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="u_cusdemotab" version="2" view="test">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="CusDemoTab - Test" name="u_cusdemotab" related_list="NULL" sys_domain="global" view="5eceeb0947e10210c5008c64116d4314">67ceeb0947e10210c5008c64116d4353</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>u_cusdemotab.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 13:59:09</sys_created_on>
+            <sys_id>a3ceeb0947e10210c5008c64116d4354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 13:59:09</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>CusDemoTab - Test</calculated_name>
+            <filter/>
+            <name>u_cusdemotab</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 13:59:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67ceeb0947e10210c5008c64116d4353</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CusDemoTab - Test</sys_name>
+            <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+            <sys_update_name>sys_ui_related_u_cusdemotab_test</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 13:59:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Test" name="test">5eceeb0947e10210c5008c64116d4314</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemoTable">b1c0b93d93490210ced433277bba1074</application>
+        <file_path/>
+        <instance_id>5c31fbef1b86fd5432182f8dee4bcbec</instance_id>
+        <instance_name>dev197898</instance_name>
+        <name>sys_ui_related_u_cusdemotab_test</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="u_cusdemotab" version="2" view="test"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="CusDemoTab - Test" name="u_cusdemotab" related_list="NULL" sys_domain="global" view="5eceeb0947e10210c5008c64116d4314">67ceeb0947e10210c5008c64116d4353</list_id><order_by/><position>0</position><related_list>u_cusdemotab.parent</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-12 13:59:09</sys_created_on><sys_id>a3ceeb0947e10210c5008c64116d4354</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-12 13:59:09</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>CusDemoTab - Test</calculated_name><filter/><name>u_cusdemotab</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-12 13:59:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>67ceeb0947e10210c5008c64116d4353</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CusDemoTab - Test</sys_name><sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package><sys_policy/><sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope><sys_update_name>sys_ui_related_u_cusdemotab_test</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-12 13:59:09</sys_updated_on><sys_user/><view display_value="Test" name="test">5eceeb0947e10210c5008c64116d4314</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>1436899044</payload_hash>
+        <record_name>CusDemoTab</record_name>
+        <reverted_from/>
+        <source>3cac8bc547210210c5008c64116d43d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-12 13:59:09</sys_created_on>
+        <sys_id>63ceeb0947e10210c5008c64116d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ed29ae0540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-12 13:59:09</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>e7ceeb0915e102108c0a6efcd18bd455</update_guid>
+        <update_guid_history>e7ceeb0915e102108c0a6efcd18bd455:1436899044,1aceeb09f2e10210be3e2dd7487c671a:228412348</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-12 14:00:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>6fa001c7e24b4e00979a3dd804040000</sys_id>
+        <sys_metadata>67ceeb0947e10210c5008c64116d4353</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CusDemoTab - Test</sys_name>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_parent display_value="CusDemoTab">80dc030147610210c5008c64116d43de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_scope_delete display_value="">2752f10bfa274c188fa7bfab5bf26e90</sys_scope_delete>
+        <sys_update_name>sys_ui_related_u_cusdemotab_test</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_u_cusdemotab_test">63ceeb0947e10210c5008c64116d4356</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-12 14:00:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

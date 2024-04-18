@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="comments_and_work_notes" label="Comments and Work notes" language="en" table="task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>comments_and_work_notes</element>
+            <help/>
+            <hint>Combined output of Additional comments and Work notes</hint>
+            <label>Comments and Work notes</label>
+            <language>en</language>
+            <name>task</name>
+            <plural>Comments and Work notes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-10-07 01:28:26</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Comments and Work notes</sys_name>
+            <sys_package display_value="Upgrade content for 2011 - activated only for new instances" source="upgrade.2011_common_practice">35183cec3cb1311068bcf327dfe37fff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+            <sys_update_name>sys_documentation_task_comments_and_work_notes_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 09:13:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e656ffef00000002</claim_timestamp>
+        <metadata_update_name>sys_documentation_task_comments_and_work_notes_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:13:42</sys_created_on>
+        <sys_id>691466d293c10210ced433277bba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:42</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e656ffef00000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_task_comments_and_work_notes_en</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>upgrade.2011_common_practice</previous_claim_name>
+        <previous_claim_scope>upgrade.2011_common_practice</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:13:42</sys_created_on>
+        <sys_id>2d1466d293c10210ced433277bba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:13:42</sys_updated_on>
+    </sys_claim>
+</record_update>

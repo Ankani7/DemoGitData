@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.ud_from_utable</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ud_from_utable</name>
+        <script><![CDATA[var ud_from_utable = Class.create();
+ud_from_utable.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	displayUserDetails : function(){
+		
+		var gr = new GlideRecord ('sys_user');
+		gr.addQuery('sys_id', this.getParameter('sysparm_u'));
+		gr.query();
+		obj = {};
+		if(gr.next()){
+			obj.fname = gr.getValue('first_name');
+			obj.lname = gr.getValue('last_name');
+			gs.log(obj.fname + ' ' + 'Ud by si');			
+		}
+
+		return JSON.stringify(obj);
+	},
+
+    type: 'ud_from_utable'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 10:45:35</sys_created_on>
+        <sys_id>dc0c25b393b84210ced433277bba10be</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ud_from_utable</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_script_include_dc0c25b393b84210ced433277bba10be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:06</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e65705e8a0000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_dc0c25b393b84210ced433277bba10be</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:06</sys_created_on>
+        <sys_id>eb24ae1693c10210ced433277bba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:06</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assignment_group</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AutoUpdateCells</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+
+	var grUp = new GlideAjax('CustomTaskSi');
+	grUp.addParam('sysparm_name', 'clearAssignedto');
+	grUp.addParam('sysparm_celldata', sysIDs);
+	grUp.getXMLAnswer(getResponse);
+
+	function getResponse(res){
+		if(res){
+			setTimeout(function(){
+				this.window.location.reload();
+			}, 300);
+		alert('assigned to is updated');
+		
+	}
+	}
+
+
+ callback(saveAndClose); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 09:55:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78d3286893e10210ced433277bba1000</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>AutoUpdateCells</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_script_client_78d3286893e10210ced433277bba1000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:52:13</sys_updated_on>
+        <table>u_customtask</table>
+        <type>onCellEdit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

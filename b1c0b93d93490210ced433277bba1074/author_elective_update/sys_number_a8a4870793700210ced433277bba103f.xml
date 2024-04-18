@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="u_parentextendingtable_task">u_parentextendingtable_task</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>PET</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-12 09:15:39</sys_created_on>
+        <sys_id>a8a4870793700210ced433277bba103f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PET</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_number_a8a4870793700210ced433277bba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:19</sys_updated_on>
+    </sys_number>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
+        <claim_timestamp>18e657090220000001</claim_timestamp>
+        <metadata_update_name>sys_number_a8a4870793700210ced433277bba103f</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>DemoTable</previous_claim_name>
+        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:19</sys_created_on>
+        <sys_id>ee34aa5693c10210ced433277bba1052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:19</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemoTable">b1c0b93d93490210ced433277bba1074</application>
+        <file_path/>
+        <instance_id>504747c91bd6791c39a54089bd4bcbc5</instance_id>
+        <instance_name>dev201707</instance_name>
+        <name>sys_number_a8a4870793700210ced433277bba103f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_parentextendingtable_task">u_parentextendingtable_task</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>PET</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-12 09:15:39</sys_created_on><sys_id>a8a4870793700210ced433277bba103f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>PET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope><sys_update_name>sys_number_a8a4870793700210ced433277bba103f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 09:14:19</sys_updated_on></sys_number><sys_claim action="INSERT_OR_UPDATE"><claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope><claim_timestamp>18e657090220000001</claim_timestamp><metadata_update_name>sys_number_a8a4870793700210ced433277bba103f</metadata_update_name><previous_claim_app_version>1.0.0</previous_claim_app_version><previous_claim_name>DemoTable</previous_claim_name><previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 09:14:19</sys_created_on><sys_id>ee34aa5693c10210ced433277bba1052</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 09:14:19</sys_updated_on></sys_claim></record_update>]]></payload>
+        <payload_hash>-1930884008</payload_hash>
+        <record_name>PET</record_name>
+        <reverted_from/>
+        <source>92da061e93010210ced433277bba105e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:14:19</sys_created_on>
+        <sys_id>6e34aa5693c10210ced433277bba1056</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e657090500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:14:19</sys_updated_on>
+        <type>Number</type>
+        <update_guid>6634aa5685c1021036f50257aebd4d56</update_guid>
+        <update_guid_history>6634aa5685c1021036f50257aebd4d56:-1930884008,ba7d96da8c810210e2863ffa1117de4f:-1581817800,e0d706da520102104b2732c76b5049cf:1369744643,74a48707de7002104492d39785a6dc46:-1581817800</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 08:12:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>0bea343f63dd48c688b97d0465930c09</sys_id>
+        <sys_metadata>a8a4870793700210ced433277bba103f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PET</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent display_value="">ba63cf8393700210ced433277bba1035</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_scope_delete display_value="">2752f10bfa274c188fa7bfab5bf26e90</sys_scope_delete>
+        <sys_update_name>sys_number_a8a4870793700210ced433277bba103f</sys_update_name>
+        <sys_update_version display_value="sys_number_a8a4870793700210ced433277bba103f">6e34aa5693c10210ced433277bba1056</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 08:12:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

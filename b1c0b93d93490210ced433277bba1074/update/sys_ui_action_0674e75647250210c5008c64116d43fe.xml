@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages>CusMsg</messages>
+        <name>Create New CT</name>
+        <onclick>gn()</onclick>
+        <order>100</order>
+        <script><![CDATA[function gn(){
+// var pc = g_form.getValue('number');
+// var ct = new GlideRecord('u_customtask');
+// ct.initialize();
+// ct.short_description = pc;
+// ct.u_parent_case =pc;
+// ct.insert();
+//action.setRedirectURL(current);
+
+ var url = 'u_customtask.do?sysid=-1&u_parent_case=';
+// window.open(URL, 'u_customtask.do?sysid=-1');
+// action.setRedirectURL(current);
+
+
+//Unable to use GlideAjax
+var aj = new GlideAjax ('CustomTaskSi');
+aj.addParam('sysparm_name', 'updateParentField');
+aj.addParam('sysparm_cv', '');
+aj.getXMLWait(val);
+
+function val (response){
+	var ans = JSON.parse(response);
+	alert(ans);
+}
+}
+
+// ct.initialize();
+// ct.setValue('short_description', cn);
+// ct.setValue('parent', cn);
+// ct.insert();
+
+//	var pl = current.getDisplayValue('number');
+
+
+//  if(current.getValue('parent')!=''){
+// 	var a = new GlideRecord('u_customtask');
+// 	a.initialize();
+// 	a.short_description = pl;
+// 	a.parent = pl;
+// 	a.insert();
+// 	}else{
+// 	a.initialize();
+// 	a.short_description = 'bb';
+// 	a.parent=current.parent;
+// 	a.short_description=current.number;
+// 	a.insert();
+// 	}
+// action.setRedirectURL(current);
+
+// var a = new GlideRecord('u_customtask');
+// 	a.initialize();
+// 	a.short_description = 'aa';
+
+// 	a.insert();
+	
+// action.setRedirectURL(current);
+
+
+
+// var ct = new GlideRecord('u_customtask');
+// ct.initialize();
+// ct.short_description = cn + ' '+ getMessage(CusMsg);
+// ct.insert();
+// action.setRedirectURL(current);
+
+// Unlimited Records
+// var a =1;
+// while(a){
+// 	ct.initialize();
+// 	ct.short_description = 'Created by UI Action';
+//     ct.insert();
+// }]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-16 10:29:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0674e75647250210c5008c64116d43fe</sys_id>
+        <sys_mod_count>97</sys_mod_count>
+        <sys_name>Create New CT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_ui_action_0674e75647250210c5008c64116d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-16 14:35:57</sys_updated_on>
+        <table>u_customtask</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
