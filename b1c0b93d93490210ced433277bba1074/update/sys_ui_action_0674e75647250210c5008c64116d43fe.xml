@@ -26,62 +26,64 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <messages>CusMsg</messages>
-        <name>Populate values</name>
+        <messages/>
+        <name>Create New CT</name>
         <onclick>populateValues()</onclick>
         <order>100</order>
         <script><![CDATA[// Client Side Scripting
 function populateValues(){
-
-	var av = g_form.getValue('assigned_to');
 	
+var sv = g_form.setValue('state','3');
+var nval = g_form.getValue('u_ctnc');
+var av = g_form.getValue('state');
 
-	var ga = new GlideAjax('UserDetails');
-	ga.addParam('sysparm_name', 'ad');
-	ga.addParam('sysparm_lname', av);
-	ga.getXMLWait();
+if (av == '3' && nval == '') 
+		{		
+			var ans = prompt('Are you sure, Do you want to create a new task, \nType Yes or no');
+			if(ans=='Yes'||ans=='yes')
+			{
+				var ct = new GlideRecord('u_customtask');
+				ct.initialize();
+				ct.description = 'new case created by cs';
+				var val = ct.insert();
+				g_form.setValue('u_ctnc', val);
+				ct.addQuery('sys_id', val);
+				ct.query();
+				if (ct.next()) {
+					var ncn = ct.getValue('number');
+				}
+				g_form.setValue('comments', 'New ' + ncn + ' task is created.');
+				g_form.save();
+    		}else 
+				{		
+					g_navigation.reloadWindow();			
+					return false;					
+				}
+				
+			// g_navigation.reloadWindow();
+			// return false;
+		}
 
-		var answer = ga.getAnswer();
-		var parsedanswer = JSON.parse(answer);
-		g_form.clearValue('u_first_name');
-		g_form.clearValue('u_last_name');
-		g_form.clearValue('u_email');
-	if(av!=''){
-		g_form.setValue('u_first_name', parsedanswer.fe);
-		g_form.setValue('u_last_name', parsedanswer.le);
-		g_form.setValue('u_email', parsedanswer.ne);
-	}
-	
-		gsftSubmit(null, g_form.getElement(), 'reload_page');
 
 }
+	
+	
+	
+	
+// Clent-Side scripting
+// 	gsftSubmit(null, g_form.getElement(), 'reload_page');
+
 // Server Side Scripting	
-		current.update();
-		action.setRedirectURL(current);
+// 		current.update();
+// 		action.setRedirectURL(current);
 
-	var serVal = current.number;
-//action.setRedirectURL(current);
-var a = new GlideRecord('u_customtask');
-	a.initialize();
-	a.short_description = 'Parent Rec Num '+ serVal;
-	a.parent = serVal;
-	a.insert();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 	var serVal = current.number;
+// //action.setRedirectURL(current);
+// var a = new GlideRecord('u_customtask');
+// 	a.initialize();
+// 	a.short_description = 'Parent Rec Num '+ serVal;
+// 	a.parent = serVal;
+// 	a.insert();
 
 // var pc = g_form.getValue('number');
 // var ct = new GlideRecord('u_customtask');
@@ -154,15 +156,15 @@ var a = new GlideRecord('u_customtask');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0674e75647250210c5008c64116d43fe</sys_id>
-        <sys_mod_count>151</sys_mod_count>
-        <sys_name>Populate values</sys_name>
+        <sys_mod_count>160</sys_mod_count>
+        <sys_name>Create New CT</sys_name>
         <sys_overrides/>
         <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_ui_action_0674e75647250210c5008c64116d43fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-18 09:12:55</sys_updated_on>
+        <sys_updated_on>2024-04-19 10:14:06</sys_updated_on>
         <table>u_customtask</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

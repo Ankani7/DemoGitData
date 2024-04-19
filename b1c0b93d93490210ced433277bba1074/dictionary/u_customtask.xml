@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="c9bfcaea93d10210ced433277bba1065" extends="task" label="CustomTask" max_length="40" name="u_customtask" type="collection">
+    <element audit="true" db_object_id="c9bfcaea93d10210ced433277bba1065" extends="task" label="CustomTask" max_length="40" name="u_customtask" type="collection">
+        <element attributes="encode_utf8=false" dependent="state" dependent_on_field="state" label="Custom Task (New Case)" max_length="32" name="u_ctnc" reference="u_customtask" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
