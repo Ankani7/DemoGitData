@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Server API's</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// GrCT we can do CRUD operations without checking if user has roles to do CRUD operations
+var grct = new GlideRecord('u_customtask');
+// GrSCT we can do CRUD operations by checking if user has roles to do CRUD operations
+var grsct = new GlideRecordSecure('u_customtask');
+// we can get the total number of records, MIN, MAX, AVG etc values of the records or record by using GraCT
+var gract = new GlideAggregate('u_customtask');
+
+//var nGrCT='';
+
+
+// //Getting row count using GlideAggregate
+// gract.addQuery('number','!=','');
+// gract.groupBy('number');
+// gract.addAggregate('COUNT', 'number');
+// gract.query();
+// while(gract.next()){
+// 	if((gract.getAggregate('COUNT','number'))){
+// 	gs.print(gract.number, grct.short_description);
+// }
+// }
+
+// // Quering the count of Duplicate records and deleting them except the latest records
+// gract.groupBy('number');
+// gract.addAggregate('COUNT', 'number');
+// gract.query();
+// while(gract.next()){
+// 	var n = gract.getAggregate('COUNT', 'number');
+// 	if(n>1){
+// 		gs.print(gract.number+' :'+gract.getAggregate('COUNT', 'number'));
+// 	grct.addQuery('number', '==', gract.number);
+// 	grct.orderByDesc('number');
+// 	grct.query();
+// 	grct.next();
+// 	while(grct.next()){
+// 		grct.deleteRecord();		
+// 	}
+
+// 	}else{
+// 		var val = gract.getAggregate('COUNT', 'number') ;
+// 		if (gract.getAggregate('COUNT', 'number')<=1){
+// 		gs.print('No Duplicate Records Found for '+gract.number+' :'+val);
+// 	}
+// }
+// }
+
+
+
+
+
+
+
+
+
+// Creating and deleting a record using GrSCT
+// grsct.initialize();
+// if(grsct.canDelete() ){
+// 	nGrCT = grsct.insert();
+// }
+// grsct.addQuery('sys_id', nGrCT);
+// grsct.query();
+// if(grsct.next()){
+// 	gs.print(grsct.number);
+// }
+// grsct.deleteRecord();
+
+
+// // Creating and Deleting a record using GrCT
+// grct.initialize();
+// var nGrCT = grct.insert();
+// grct.addQuery('sys_id', nGrCT);
+// grct.query();
+// if(grct.next()){
+// 	gs.print(grct.number);
+// }
+// //grct.deleteRecord();
+
+
+
+
+
+
+
+
+
+
+
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-24 07:53:42</sys_created_on>
+        <sys_id>142e484147310210c5008c64116d4303</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>Server API's</sys_name>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_script_fix_142e484147310210c5008c64116d4303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-24 11:34:46</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
