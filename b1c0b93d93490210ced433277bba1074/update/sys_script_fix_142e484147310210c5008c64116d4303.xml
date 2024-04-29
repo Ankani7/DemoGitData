@@ -16,36 +16,12 @@ var gDate = new GlideDateTime(); // 2024-04-26 08:54:57
 
 
 
-var msg = gs.getMessage('CusMsg');
-gs.print(msg);
+
+// var msg = gs.getMessage('CusMsg');
+// gs.print(msg);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var diff = gs.dateDiff(gDate, gD2, true);
+// var diff = gs.dateDiff(gDate, dateTimeValue, true);
 // var sec = diff/60.0/60.0;
 
 // gs.print(gDate);
@@ -131,14 +107,14 @@ gs.print(msg);
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-24 07:53:42</sys_created_on>
         <sys_id>142e484147310210c5008c64116d4303</sys_id>
-        <sys_mod_count>97</sys_mod_count>
+        <sys_mod_count>108</sys_mod_count>
         <sys_name>Server API's</sys_name>
         <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_script_fix_142e484147310210c5008c64116d4303</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-29 07:04:09</sys_updated_on>
+        <sys_updated_on>2024-04-29 13:08:53</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

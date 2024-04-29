@@ -5,5 +5,7 @@
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Parent Case" max_length="40" name="u_parent_case" reference="u_customtask" reference_floats="true" reference_qual="sys_class_name=u_customtask^EQ" reference_qual_condition="sys_class_name=u_customtask^EQ" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Schedule" max_length="40" name="u_schedule" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Schedule Date" max_length="40" name="u_schedule_date" type="glide_date"/>
     </element>
 </database>

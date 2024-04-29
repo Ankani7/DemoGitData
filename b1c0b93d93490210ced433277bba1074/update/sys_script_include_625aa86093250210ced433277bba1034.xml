@@ -10,6 +10,40 @@
         <script><![CDATA[var CustomTaskSi = Class.create();
 CustomTaskSi.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
+	dateUpdate: function(){
+
+		var scValue = this.getParameter('sysparm_dateValue');
+		var asVal = this.getParameter('sysparm_assigned_to');
+		var dateTimeValue = new GlideDateTime(scValue);
+		var dateValue = new GlideDateTime();
+		var difDate = gs.dateDiff(dateValue, dateTimeValue, true );
+		var obj ={};
+		// var ss = new GlideRecord('sys_user');
+		// ss.addQuery('sys_id', asVal);
+		// ss.query();
+		// if(ss.next()){
+			
+		// 	return ss.email+'';
+		// }
+
+		obj.n = difDate<0 ? 'past':'future';
+
+		if (difDate<0){
+			return 'past';
+			//return JSON.parse(obj);
+		}
+
+
+		
+	},
+
+
+
+
+
+
+
+
     updateParentField: function() {
 		var objt = {};
         var ct = new GlideRecord('u_customtask');
@@ -45,13 +79,13 @@ CustomTaskSi.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-10 10:24:22</sys_created_on>
         <sys_id>625aa86093250210ced433277bba1034</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>CustomTaskSi</sys_name>
         <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_script_include_625aa86093250210ced433277bba1034</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-16 13:58:23</sys_updated_on>
+        <sys_updated_on>2024-04-29 11:52:02</sys_updated_on>
     </sys_script_include>
 </record_update>

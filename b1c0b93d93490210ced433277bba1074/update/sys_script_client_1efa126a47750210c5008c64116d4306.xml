@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_schedule</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Schedule field Restriction_CT</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+
+        return;
+    }
+
+    var scd = g_form.getValue('description');
+    var sc = g_form.getValue('u_schedule');
+
+    var ga = new GlideAjax('CustomTaskSi');
+    ga.addParam('sysparm_name', 'dateUpdate');
+    ga.addParam('sysparm_dateValue', sc);
+    ga.addParam('sysparm_assigned_to', g_form.getValue('assigned_to'));
+    ga.getXMLWait();
+
+    var ans = ga.getAnswer();
+
+    // g_form.showFieldMsg('u_schedule', 'This is error because its in past ', 'error');
+
+
+    // var val = ans == 'past' ? g_form.clearValue('u_schedule')+
+    //     g_form.showFieldMsg('u_schedule', 'This is error because its in past ', 'error')
+    // 		:
+    // 			g_form.clearValue('u_schedule')+ alert(sc.oldValue)+
+    // 			
+
+    // 	return val;
+
+    if (ans == 'past') {
+        // g_form.clearValue('u_schedule');
+        // g_form.showFieldMsg('u_schedule', 'This is error because its in past ', 'error');
+        // var n = g_form.getValue('description');
+        //g_form.setValue('description', 'this old value: '+n+' this is n value: '+n+' this is newvalue: '+newValue);
+        nValue();
+		// g_navigation.reloadWindow();
+		return true;
+    } else {
+        des();
+    }
+
+    function nValue() {
+        var cv = g_form.clearValue('u_schedule');
+        var im = g_form.showFieldMsg('u_schedule', 'This is error because its in past ', 'error');
+		return cv + im;
+    }
+
+    function des() {
+        var n = g_form.setValue('description', 'Value returned');
+        return n;
+    }
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-29 10:01:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1efa126a47750210c5008c64116d4306</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>Schedule field Restriction_CT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_script_client_1efa126a47750210c5008c64116d4306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-29 13:08:09</sys_updated_on>
+        <table>u_customtask</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
