@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Demo Event </description>
+        <event_name>cus.task.ent</event_name>
+        <fired_by>BR</fired_by>
+        <priority>100</priority>
+        <queue>100</queue>
+        <suffix/>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 10:23:55</sys_created_on>
+        <sys_id>b063824c479a4210c5008c64116d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cus.task.ent</sys_name>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sysevent_register_b063824c479a4210c5008c64116d43f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 10:23:55</sys_updated_on>
+        <table>u_customtask</table>
+    </sysevent_register>
+</record_update>

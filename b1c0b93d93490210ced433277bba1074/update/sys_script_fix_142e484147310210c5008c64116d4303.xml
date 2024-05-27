@@ -6,25 +6,31 @@
         <record_for_rollback>true</record_for_rollback>
         <script><![CDATA[// GrCT we can do CRUD operations without checking if user has roles to do CRUD operations
 var grct = new GlideRecord('u_customtask');
-// GrSCT we can do CRUD operations by checking if user has roles to do CRUD operations
+// GrSCT we can do CRUD operations by checking if user has roles to do CRUD operations to secure application even more
 var grsct = new GlideRecordSecure('u_customtask');
 // we can get the total number of records, MIN, MAX, AVG etc values of the records or record by using GraCT
 var gract = new GlideAggregate('u_customtask');
 // To get current date time or to generate the requirement
-var gDate = new GlideDateTime(gs.endOfThisMonth()); // 2024-04-26 08:54:57
-
+var gDate = new GlideDateTime(); // 2024-04-26 08:54:57
+var gEndDate = new GlideDateTime();
 
 	var dayM =  gDate.getDaysInMonth();
 	var dayW = gDate.getDayOfWeek();
 	
-	while(dayW != 6){
-		gDate.addDays(-1);
-		var cdt = gDate.getDayOfWeek();
-	}
-	gs.print(cdt);
+	//Trying to get desired day
+	// while(dayW != 6){
+	// 	gDate.addDays(-1);
+	// 	var cdt = gDate.getDayOfWeek();
+	// }
+	// gs.print(cdt);
 	// gs.print()
-	gs.print(gDate.getDate());
-	gs.print();
+	
+	gs.print(gEndDate);//Current date
+	gs.print(gs.endOfMonth()); //1st day of the next month
+	gs.print(gDate.getDayOfMonthLocalTime()); //Local date and time
+	gs.print(gDate.getDate().getDayOfWeek()); //Gives yesterdays day number of the week
+	// gs.print(dayM, dayW);
+	
 
 
 
@@ -44,8 +50,9 @@ var gDate = new GlideDateTime(gs.endOfThisMonth()); // 2024-04-26 08:54:57
 	// var sch = new GlideSchedule(''); 
 	
 	// var adsc = sch.add(cg, dur);
-	// var diff = gs.dateDiff(cg, adsc, true);
+	// var diff = gs.dateDiff(cg, adsc, false);
 	// gs.print(diff);
+	// gs.print(22500-70/100);
 	
 
 	// Adding 5 days to current date to date field with spliting the value of time
@@ -162,14 +169,14 @@ var gDate = new GlideDateTime(gs.endOfThisMonth()); // 2024-04-26 08:54:57
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-24 07:53:42</sys_created_on>
         <sys_id>142e484147310210c5008c64116d4303</sys_id>
-        <sys_mod_count>149</sys_mod_count>
+        <sys_mod_count>181</sys_mod_count>
         <sys_name>Server API's</sys_name>
         <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_script_fix_142e484147310210c5008c64116d4303</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-02 09:21:31</sys_updated_on>
+        <sys_updated_on>2024-05-23 05:17:33</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>
