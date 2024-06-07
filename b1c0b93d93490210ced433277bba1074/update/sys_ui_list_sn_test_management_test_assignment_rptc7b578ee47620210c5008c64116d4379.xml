@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sn_test_management_test_assignment" version="2" view="RPTc7b578ee47620210c5008c64116d4379">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test.number</element>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="dfb578ee47620210c5008c64116d437f">32cb7ca647a20210c5008c64116d4361</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_id>32cb7ca647a20210c5008c64116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test</element>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="dfb578ee47620210c5008c64116d437f">32cb7ca647a20210c5008c64116d4361</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_id>b6cb7ca647a20210c5008c64116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>result</element>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="dfb578ee47620210c5008c64116d437f">32cb7ca647a20210c5008c64116d4361</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_id>3acb7ca647a20210c5008c64116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test.short_description</element>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="dfb578ee47620210c5008c64116d437f">32cb7ca647a20210c5008c64116d4361</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_id>bacb7ca647a20210c5008c64116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>result.result</element>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="dfb578ee47620210c5008c64116d437f">32cb7ca647a20210c5008c64116d4361</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_id>3ecb7ca647a20210c5008c64116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test.runnable_version</element>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="dfb578ee47620210c5008c64116d437f">32cb7ca647a20210c5008c64116d4361</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_id>becb7ca647a20210c5008c64116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="dfb578ee47620210c5008c64116d437f">32cb7ca647a20210c5008c64116d4361</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_id>32cb7ca647a20210c5008c64116d4363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test_execution_suite</element>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="dfb578ee47620210c5008c64116d437f">32cb7ca647a20210c5008c64116d4361</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_id>b2cb7ca647a20210c5008c64116d4363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sn_test_management_test_assignment</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 09:50:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32cb7ca647a20210c5008c64116d4361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_test_management_test_assignment</sys_name>
+            <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+            <sys_update_name>sys_ui_list_sn_test_management_test_assignment_RPTc7b578ee47620210c5008c64116d4379</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 09:50:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptc7b578ee47620210c5008c64116d4379" name="RPTc7b578ee47620210c5008c64116d4379">dfb578ee47620210c5008c64116d437f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

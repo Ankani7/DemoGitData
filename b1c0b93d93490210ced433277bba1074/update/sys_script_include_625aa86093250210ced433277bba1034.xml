@@ -22,23 +22,24 @@ CustomTaskSi.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		
 		return sd[0];
 
-
-		// return fdate;
-
-
-
 	},
 
 
+	userDetails: function(){
 
+	var gr = new GlideRecord('sys_user');
+	gr.addQuery('sys_id', this.getParameter('sysparm_aval'));
+	gr.query();
+	var obj = {};
+	if(gr.next()){
+		obj.fname = gr.getValue('first_name');
+		obj.lname = gr.getValue('last_name');
+		obj.eml = gr.getValue('email');
+	}
 
+	return JSON.stringify(obj);
 
-
-
-
-
-
-
+	},
 
 
 	dateUpdate: function(){
@@ -92,13 +93,13 @@ CustomTaskSi.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-10 10:24:22</sys_created_on>
         <sys_id>625aa86093250210ced433277bba1034</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>CustomTaskSi</sys_name>
         <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_script_include_625aa86093250210ced433277bba1034</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-02 08:22:07</sys_updated_on>
+        <sys_updated_on>2024-05-29 07:19:44</sys_updated_on>
     </sys_script_include>
 </record_update>
