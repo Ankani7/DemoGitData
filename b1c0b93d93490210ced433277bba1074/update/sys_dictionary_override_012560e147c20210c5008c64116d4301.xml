@@ -10,25 +10,25 @@
         <dependent/>
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
-        <element>assigned_to</element>
+        <element>parent</element>
         <mandatory>false</mandatory>
         <mandatory_override>false</mandatory_override>
-        <name>u_cusdemotab</name>
+        <name>u_customtask</name>
         <read_only>false</read_only>
         <read_only_override>false</read_only_override>
-        <reference_qual/>
+        <reference_qual>sys_class_name=u_customtask</reference_qual>
         <reference_qual_override>true</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-12 12:34:11</sys_created_on>
-        <sys_id>024b134147a10210c5008c64116d43f7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>assigned_to</sys_name>
+        <sys_created_on>2024-05-08 09:09:08</sys_created_on>
+        <sys_id>012560e147c20210c5008c64116d4301</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>parent</sys_name>
         <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
-        <sys_update_name>sys_dictionary_override_024b134147a10210c5008c64116d43f7</sys_update_name>
+        <sys_update_name>sys_dictionary_override_012560e147c20210c5008c64116d4301</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-16 10:40:16</sys_updated_on>
+        <sys_updated_on>2024-05-08 09:10:02</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

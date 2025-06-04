@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="u_customtask">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_first_name" table="u_customtask">
         <active>true</active>
         <array>false</array>
-        <attributes/>
-        <audit>true</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>First Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,13 +21,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_first_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>u_customtask</name>
@@ -51,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-04 13:16:38</sys_created_on>
-        <sys_name>u_customtask</sys_name>
+        <sys_created_on>2024-04-18 07:36:39</sys_created_on>
+        <sys_name>First Name</sys_name>
         <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
-        <sys_update_name>sys_dictionary_u_customtask_null</sys_update_name>
+        <sys_update_name>sys_dictionary_u_customtask_u_first_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 07:13:23</sys_updated_on>
+        <sys_updated_on>2024-04-18 07:36:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -71,18 +66,4 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_dictionary>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</claim_owner_scope>
-        <claim_timestamp>18ec77d62c40000001</claim_timestamp>
-        <metadata_update_name>sys_dictionary_u_customtask_NULL</metadata_update_name>
-        <previous_claim_app_version>1.0.0</previous_claim_app_version>
-        <previous_claim_name>DemoTable</previous_claim_name>
-        <previous_claim_scope>b1c0b93d93490210ced433277bba1074</previous_claim_scope>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-10 10:11:07</sys_created_on>
-        <sys_id>f3672cac93e10210ced433277bba10fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-10 10:11:07</sys_updated_on>
-    </sys_claim>
 </record_update>
