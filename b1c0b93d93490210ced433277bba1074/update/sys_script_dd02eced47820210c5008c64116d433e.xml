@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="u_customtask">assignment_group=02d1e0ad47820210c5008c64116d43b8^short_description=SNOW^EQ<item display_table="sys_user_group" display_value="BR CustomTask Group" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="02d1e0ad47820210c5008c64116d43b8"/>
+        <filter_condition table="u_customtask">assignment_group=02d1e0ad47820210c5008c64116d43b8^short_description=SNOW^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="02d1e0ad47820210c5008c64116d43b8"/>
             <item endquery="false" field="short_description" goto="false" newquery="false" operator="=" or="false" value="SNOW"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>

@@ -50,8 +50,9 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>glide.maint</sys_created_by>
         <sys_created_on>2006-02-09 00:21:19</sys_created_on>
+        <sys_id>f87fc2bc9d12321055903da570aff034</sys_id>
         <sys_name>Assignment group</sys_name>
-        <sys_package display_value="Service Management Basics" source="com.snc.service">fd36fc603cb1311068bcf327dfe37f8b</sys_package>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_dictionary_task_assignment_group</sys_update_name>

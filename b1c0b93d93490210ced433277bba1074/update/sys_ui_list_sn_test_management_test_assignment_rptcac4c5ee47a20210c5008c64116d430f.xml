@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>result</element>
-            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="c5c609a247e20210c5008c64116d4380">ece7852647e20210c5008c64116d43c1</list_id>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="b12b4246533c07102c653ee0a0490e67">ece7852647e20210c5008c64116d43c1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>test.short_description</element>
-            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="c5c609a247e20210c5008c64116d4380">ece7852647e20210c5008c64116d43c1</list_id>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="b12b4246533c07102c653ee0a0490e67">ece7852647e20210c5008c64116d43c1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>result.result</element>
-            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="c5c609a247e20210c5008c64116d4380">ece7852647e20210c5008c64116d43c1</list_id>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="b12b4246533c07102c653ee0a0490e67">ece7852647e20210c5008c64116d43c1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>test.runnable_version</element>
-            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="c5c609a247e20210c5008c64116d4380">ece7852647e20210c5008c64116d43c1</list_id>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="b12b4246533c07102c653ee0a0490e67">ece7852647e20210c5008c64116d43c1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="c5c609a247e20210c5008c64116d4380">ece7852647e20210c5008c64116d43c1</list_id>
+            <list_id display_value="sn_test_management_test_assignment" element="NULL" name="sn_test_management_test_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="b12b4246533c07102c653ee0a0490e67">ece7852647e20210c5008c64116d43c1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -100,7 +100,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-05 10:43:31</sys_updated_on>
             <sys_user/>
-            <view display_value="Rptcac4c5ee47a20210c5008c64116d430f" name="RPTcac4c5ee47a20210c5008c64116d430f">c5c609a247e20210c5008c64116d4380</view>
+            <view display_value="Rptcac4c5ee47a20210c5008c64116d430f" name="RPTcac4c5ee47a20210c5008c64116d430f">b12b4246533c07102c653ee0a0490e67</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -2,7 +2,7 @@
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="Test Management Repo - New Tab">21a7eca647220210c5008c64116d43b3</canvas_page>
         <name>61a7eca647220210c5008c64116d43b6Test Management Repo - New Tab</name>
-        <page display_value="Test Management Repo - New Tab">21a724a647220210c5008c64116d43cf</page>
+        <page display_value="">21a724a647220210c5008c64116d43cf</page>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-05 08:22:42</sys_created_on>

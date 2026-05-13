@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="u_cusdemotab" name="u_cusdemotab" sys_domain="global" view="Default view">2b3d22ce47a10210c5008c64116d43bf</sys_ui_form>
-            <sys_ui_section caption="CusDemoView" display_value="CusDemoView" name="u_cusdemotab" sys_domain="global" view="Default view">e73d22ce47a10210c5008c64116d43c1</sys_ui_section>
+            <sys_ui_section display_value="">e73d22ce47a10210c5008c64116d43c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-04-15 11:46:37</sys_updated_on>
         </sys_ui_form_section>

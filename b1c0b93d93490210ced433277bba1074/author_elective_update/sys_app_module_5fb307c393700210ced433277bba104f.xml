@@ -79,7 +79,7 @@
         <update_guid_history>4e242a16a6c102102d1bcace2635d565:1040166255,aefcda5a55810210269aa91b83f46dd8:-1933360968,67b1da5a0f410210da2e623f782d8ade:-17533962,53b347c3147002109831bcface63064a:-1933360968</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ParentExtendingTable(task)">b24c923293910210ced433277bba10cf</sys_audit_delete>
+        <sys_audit_delete display_value="">b24c923293910210ced433277bba10cf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-05 08:12:19</sys_created_on>

@@ -9,6 +9,8 @@
         <create_access>true</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
         <is_extendable>true</is_extendable>
         <label>TestExtendingTable</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -17,14 +19,14 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">51d3fca43c31311068bcf327dfe37f33</super_class>
+        <super_class display_value="Task" name="task">b87fc2bc9d12321055903da570aff022</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-12 09:09:35</sys_created_on>
         <sys_id>ec13cf0393700210ced433277bba109d</sys_id>
         <sys_mod_count>14</sys_mod_count>
         <sys_name>TestExtendingTable</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_db_object_ec13cf0393700210ced433277bba109d</sys_update_name>
