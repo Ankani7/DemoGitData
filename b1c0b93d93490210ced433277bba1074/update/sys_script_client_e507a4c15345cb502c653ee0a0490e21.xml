@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_email</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>VSautoCreateCT</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+
+// 	// automating the CT VS code
+
+// test('snow_automation', async ({ page }) => {
+  
+//   await page.goto('https://dev321575.service-now.com/');
+//   await page.getByRole('button', { name: 'Sign In' }).click();
+//   await page.goto('https://signon.servicenow.com/x_snc_sso_auth.do?pageId=login');
+//   await page.getByRole('textbox', { name: 'Email' }).fill('ankani.raju@infosys.com');
+//   await page.getByRole('button', { name: 'Next' }).click();
+//   await page.getByRole('textbox', { name: 'Password' }).click();
+//   await page.getByRole('textbox', { name: 'Password' }).fill('Deadpool@123');
+//   await page.getByRole('button', { name: 'Sign in' }).click();
+//   await page.getByRole('button', { name: 'Select', exact: true }).click();
+
+// await expect(page.locator('div').filter({ hasText: /^Submit$/ }).first()).toBeVisible();
+// await expect(page.getByRole('button', { name: 'Submit' })).toBeVisible();
+
+// // await page.getByRole('textbox', { name: 'Digit 6' }).waitFor("visible")
+// // await expect(page.getByRole('textbox', { name: 'Digit 6' })).toBeEmpty();
+// // await page.getByRole('textbox', { name: 'Please enter verification' }).click();
+// // await page.getByRole('textbox', { name: 'Please enter verification' }).fill('9');
+// // await expect(page.locator('div').filter({ hasText: /^Submit$/ }).first()).toBeVisible();
+// // await page.getByRole('textbox', { name: 'Digit 6' }).click();
+// // await page.getByRole('textbox', { name: 'Digit 6' }).fill('3');
+// // await expect(page.locator('div').filter({ hasText: /^Submit$/ }).first()).toBeVisible();
+// // await page.getByRole('button', { name: 'Submit' }).click();
+// // await page.getByRole('textbox', { name: 'Digit 6' }).fill('2');
+// // await page.getByRole('button', { name: 'Submit' }).click();
+// // await page.goto('https://signon.service-now.com/sso');
+// // await page.getByRole('button', { name: 'Submit' }).toBeVisible({ timeout: 30000 });
+// // await submitBtn.click();
+// // await page.getByRole('button', { name: 'Submit' }).click();
+
+// });
+
+// test('snow_userlogin', async({page}) =>{
+  
+// // Login
+//   await page.goto('https://dev321575.service-now.com/');
+//   await page.getByRole('textbox', { name: 'User name' }).fill('abel.tuter');
+//   await page.getByRole('textbox', { name: 'Password' }).click();
+//   await page.getByRole('textbox', { name: 'Password' }).fill('Deadpool@123');
+//   await page.getByRole('button', { name: 'Log in' }).click();
+
+
+// // Creating CT
+//   await page.getByRole('menuitem', { name: 'All' }).click();
+//   await page.waitForTimeout(5000);
+//   await page.getByRole('button', { name: 'Refresh menu items' }).click();
+//   await page.getByRole('textbox', { name: 'Enter search term to filter' }).fill('custom ');
+//   await page.waitForTimeout(5000);
+//   await page.getByRole('link', { name: 'CustomTasks 1 of' }).click();
+  
+//   // var newButton= page.locator('iframe[name="gsft_main"]').contentFrame().getByRole('button', { name: 'New' })
+  
+//   // await expect(newButton).toBeVisible();  
+//   await page.waitForTimeout(3000);  
+//   await page.locator('iframe[name="gsft_main"]').contentFrame().getByRole('button', { name: 'New' }).click();
+//   await page.locator('iframe[name="gsft_main"]').contentFrame().getByRole('button', { name: 'New' }).click();
+//   await page.locator('iframe[name="gsft_main"]').contentFrame().getByRole('textbox', { name: 'Short descriptio' }).fill('Test');
+//   await page.waitForTimeout(1000);
+
+  
+//   // asserting the values
+//   // Always await
+//   //  Use inputValue() for inputs
+//   //  Never use waitForTimeout() for data loading
+//   //  Use expect(...).toHaveValue() for stability
+//   //  ServiceNow needs smart waits, not fixed waits
+
+//   // Getting the values from form fields
+//   var numVa = page.locator('iframe[name="gsft_main"]').contentFrame().getByRole('textbox', { name: 'Number' });
+//   // Waiting for value to populate in 2 different methods
+//   await numVa.waitFor();
+//   // Wait until value is NOT empty
+//   // await expect(numVa).not.toHaveValue('');
+//   // await page.pause(); // to pause the execution
+//   var nV = await numVa.inputValue();
+//   console.log('New Value is Visible: '+nV)
+
+//   // Getting new record value from iFrames and storing it in ctValue
+//   const loc = page.locator('div').filter({ hasText: 'CustomTask - Create' }).nth(5);
+//   const fullText = await loc.textContent();
+//   const match = fullText?.match(/CT\d+/);
+//   const ctValue = match ? match[0] : null;
+//   console.log('New Record: '+ctValue); 
+
+
+// // Record Submited and Sorted to latest
+//   await page.locator('iframe[name="gsft_main"]').contentFrame().locator('#sysverb_insert').click();
+//   await page.locator('iframe[name="gsft_main"]').contentFrame().locator('a').nth(5).click(); // Sort to latest
+
+
+// await expect(page.locator('iframe[name="gsft_main"]').contentFrame().getByRole('gridcell', { name: 'Open record: CT0001028' })).toBeVisible();
+
+
+// })
+
+
+
+
+
+
+
+
+
+
+// // all other automation
+
+
+// import {test, chromium} from '@playwright/test';
+// import { readFile } from 'node:fs';
+
+
+// // // import { before, beforeEach } from 'node:test';
+// // // // @ts-check
+// // // // import {test} from '@playwright/test';
+// // // // This is my test file which can contain multiple test cases.
+// // // /*
+
+// // // SetUp for Playwright : 
+// // // Instal Node.jS LTS latest, Install VS code
+// // // Install Playwright Test for VSCode dependency from Marketplace in VS code
+// // // set up .npmrc file with jfrog artifact Ex below
+
+// // // in config fie setup default browser to chrome and file path to c:\browser folder
+// // // export default ({  use: {
+// // //     fullyparallel : true, headless: false, // This will always launch the Chrome browser
+// // //     launchOptions: { executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 
+// // //       args: ['--start-maximized']  }  } // });
+// // // npx playwright install to be done in VS Code
+// // npx playwright test --debug
+// // npx playwright test --headed
+
+// // 
+// // npm install               # Install dependencies
+// // npx playwright install    # Install browsers
+// // npx playwright test       # Run tests
+// // npx playwright show-report -- npx playwright test -g name of the testcase&& npx playwright show-report
+
+// // 
+
+
+// // // TEst syntax: 
+// // // test('Test title here', 'Test description(optional)', fixtures(browser, use, page)=>{
+// // // //This is my test body
+// // // });
+// // // */ 
+// // // // npx playwright testcase2 tests/demo.spec.js - not possible
+// // // // npx playwright test tests/demo.spec.js
+
+// // // // npx playwright test -g testCase1 to execute single test case
+// // // // npx playwright test --ui (trace view)
+// //      test('Test_manual', async({page})=>{
+// //      await page.goto('https:www.google.com');
+// //      console.log(await page.title());
+// //      });
+// // // // Working with fixatures Page and browser
+
+
+// // // //  test.beforeEach( async({page})=>{
+// // // //      await page.goto('https:www.google.com');
+// // // //      console.log(await page.title())
+// // // // });
+
+// // // test ('testCase1', async({page})=>{
+// // //      await page.goto('https:www.google.com');
+// // //      console.log(await page.title())
+// // // });
+
+// // // test ('testCase2', async({page})=>{
+// // //      console.log("hello");
+// // // })
+
+// // // test.afterEach(async({page})=>{
+// // //      page.close();
+// // // });
+
+// // // test ('testCase3', async({page})=>{
+// // //      await page.goto('https:www.google.com');
+// // //      // this promise will be used, when an website opens any links in new tab
+// // //      //         and waits for required actions/task to be completed and 
+// // //      // once its done it'll return to main page continue on main page to perform required actions
+// // //      const page1promise = page.waitForEvent('popup'); 
+// // //      console.log(await page.title())
+// // //      const page1 = await page1promise
+// // //      await page1.goto('open any page')
+// // // });
+
+
+
+// // // // Fixtures: necessarily the browser/test isolations required to execute the test cases independently.
+// // // // There are 3 levels:
+// // // // Browser -> Context(Browser Context) -> Page
+// // // // Used when we are dealing with multiple browser(s) running our scripts.
+// // // // browser -> we describe what browser we want to work with... Chromium | FireFox | Webkit
+// // // // context -> launches a browser window
+// // // // page -> a web page
+// // // test('Test one', async({page})=>{
+// // //     page.goto('https://www.google.com');
+// // // });
+
+// // // let page;
+// // // test.beforeAll(async({browser, context})=>{
+// // //     context = new browser.newContext();
+// // //     page = context.newPage();
+// // // })
+
+// // // // test('Test one', async()=>{
+// // // //     page.goto('https://www.google.com');
+// // // // })
+
+// // // test('Test two', async()=>{
+// // //     page.goto('https://www.flipkart.com');
+// // // })
+
+// // // test.afterAll(async({browser})=>{
+// // // })
+
+// // // // Working with Annotations
+// // // //  ONLY -> it will be used to run single test by ignoring others
+// // // //  SKIP -> It  will be used to skip test executions
+
+// // // test.only('test1', async({page})=>{
+// // //      console.log('test1 result')
+// // // })
+
+// // // test.fail('test3', async({page})=>{
+// // //      console.log('test2 result')
+// // // })
+// // // test.fixme('test4', async({page})=>{
+// // //      console.log('test2 result')
+// // // })
+
+// // // test('test6', async({page})=>{
+// // //      test.slow()
+// // //      test.setTimeout(45000)
+// // //      console.log('test2 result')
+// // // })
+
+// // // // Assertion -- await expect -- Hard assertion which stop the execution if step fails
+// // // // Assertion -- await expect.soft -- Soft assertion which continue the execution even if step fails
+
+// // // // Done with timeouts
+// // // // Done with Checkboxs, Radio buttons, Text boxs, dialogue box
+
+
+// // // Working with tables
+// // let row;
+// // test('tables demo', async({page})=>{
+// //     await page.goto("http://10.81.69.74:81/PackAndGo_v2/");
+// //     await page.waitForTimeout(1000);
+// //     await page.getByRole('link',{name: 'Offers'}).click();
+// //     await page.waitForTimeout(1000);
+// //     const table = page.locator('#offersTable');
+// //     const rows = await table.locator('tr').all();
+// //     for (let i = 0; i < rows.length; i++) {
+// //          row = rows[i];
+// //         console.log(`Row ${i + 1}`)
+// //         const cells = await row.locator('td').all();
+// //         for (let j = 0; j < cells.length; j++) {
+// //             const cell = cells[j];
+// //             const text = await cell.allInnerTexts();
+// //             // console.log('Row ${i + 1}, Cell ${j + 1}: ${text}');
+// //            const valsNum = `${j + 1}`
+// //           const vals =`${text}`
+// //            console.log(valsNum + vals)
+// //         }
+// //     }
+// // })
+
+// // working with pop-up's
+// /* 
+// test('test', async ({ page }) => {
+//   await page.goto('http://10.81.69.74:81/DemoApps-Playgroundversion/popupBox.html');
+//   await page.waitForTimeout(5000);
+//   page.once('dialog', dialog => {
+//     console.log(`Dialog message: ${dialog.message()}`);
+//     dialog.accept();
+//   });
+//   await page.getByRole('button', { name: 'Alert' }).click();
+
+//   await page.waitForTimeout(5000);
+  
+//   page.once('dialog', dialog => {
+//       console.log(`Dialog message: ${dialog.message()}`);
+//       dialog.dismiss().catch(() => {});
+//     });
+//     await page.getByRole('button', { name: 'Confirmation' }).click();
+    
+//     await page.waitForTimeout(5000);
+
+//   page.once('dialog', dialog => {
+//     console.log(`Dialog message: ${dialog.message()}`);
+//     dialog.dismiss().catch(() => {});
+//   });
+//   await page.getByRole('button', { name: 'Prompt' }).click();
+//   await expect(page.getByText('Hello Mayank! How are you')).toBeVisible();
+// });
+// */
+
+// // Working with iFrames
+
+// // test('iFrame', async ({ page }) => {
+// //   await page.goto('https://vinothqaacademy.com/iframe/');
+// //   await page.locator('iframe[name="popuppage"]').contentFrame().locator('.elementor-element.elementor-element-d5cad06').click();
+// //   await page.locator('iframe[name="employeetable"]').contentFrame().getByRole('cell', { name: 'Project Manager' }).click();
+// //   await expect.soft(page.locator('iframe[name="employeetable"]').contentFrame().getByRole('heading')).toContainText('Project Details');
+// // });
+
+
+
+// // Working with XL sheets
+
+
+// // const xlsx = require('xlsx');
+
+// // test('excel demo', async ({ page }) => {
+// //   const browser = await chromium.launch();
+// //   let a = 5;
+// //   //  const workbook = xlsx.readFile('C:\Users\ankani.raju\OneDrive - Infosys Limited\Desktop\PlayWright\params_js.xlsx');
+// //   const workbook = xlsx.readFile('C:\Users\ankani.raju\OneDrive - Infosys Limited\Desktop\PlayWright\params_js.xlsx')
+// //   const sheet = workbook.Sheets['Sheet1'];
+// //   const rowSize = sheet['!rows'].length();
+
+
+// //   await page.goto('http://10.77.67.16:83/Common/Login.aspx')
+// //   await page.waitForLoadState('networkidle');
+
+// //   for (let i = 2; i < rowSize; i++) {
+// //     const userid = sheet[`A${i}`].v; //sheet[`A{i}`] => undefined;// .v -> takes the cell content
+// //     const pwd = sheet[`B${i}`].v;
+
+
+// //     await page.locator('#body_txtUserID').fill(userid);
+// //     //locate password and pass the value
+// //     await page.locator('#body_txtPassword').fill(pwd);
+
+// //     //click on login button
+// //     await page.locator('#body_btnLogin').click();
+// //     await page.waitForTimeout(2000);
+
+
+// //     console.log('a'); // =>  a 
+// //     console.log(`${a}`); // => 5
+// //     console.log(a); // => 5
+// //   }
+// // })
+
+// // // Waiting in Webpages
+
+// // test('ss', async({page})=>{
+// // await page.goto('http://10.81.69.75:8085/PSR/');
+// // //await page.waitForTimeout(10000);
+
+// // await page.waitForLoadState('networkidle');
+// // await page.screenshot({path:'ss1.png'});
+// // await page.screenshot({path:'ss2.png', fullPage:true});
+// // await page.getByRole('link', {name: 'Order Now'}).screenshot({path:'ss3.png'});
+// // });
+
+
+// // test('excelsheet', async({page})=>{
+
+// //      const sheetPath = xls
+// //       xlsx.readFile("C:\Users\ankani.raju\OneDrive - Infosys Limited\Desktop\params_js.xlsx")
+// //      const sheets = sheetPath.Sheets['Sheet1']
+// //      const rows = sheets(row['!rows'].length)
+
+
+// //      for(i=2; i<row.length; i++){
+// //         const user =  sheets[`A$(1)`].v
+// //         const pwd =  sheets[`b$(1)`].v
+// //           console.log(user + pwd)
+// //      }
+
+// })
+
+
+
+	
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-22 11:49:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e507a4c15345cb502c653ee0a0490e21</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>VSautoCreateCT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
+        <sys_update_name>sys_script_client_e507a4c15345cb502c653ee0a0490e21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-22 14:59:06</sys_updated_on>
+        <table>u_customtask</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
