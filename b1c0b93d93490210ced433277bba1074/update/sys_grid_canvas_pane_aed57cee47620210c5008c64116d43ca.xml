@@ -2,7 +2,7 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="Test Management Repo - New Tab">21a7eca647220210c5008c64116d43b3</grid_canvas>
         <height>14</height>
-        <portal_widget display_value="Created 2024-06-05 02:24:45">e6d538ae47620210c5008c64116d4357</portal_widget>
+        <portal_widget display_value="">e6d538ae47620210c5008c64116d4357</portal_widget>
         <posx>0</posx>
         <posy>13</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

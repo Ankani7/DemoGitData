@@ -6,11 +6,17 @@
         <checklist/>
         <context>asset-search</context>
         <description>Set up queries to locate assets that match specific filtering criteria. You can refine your searches until you are satisfied with the results, and you can create policies from your search criteria.</description>
-        <eh_content display_value="spc-asset-explorer">5c6fbc5693000210ced433277bba1051</eh_content>
+        <eh_content display_value="">5c6fbc5693000210ced433277bba1051</eh_content>
+        <interaction_status/>
         <name>Asset search</name>
         <order>200</order>
+        <process_definition/>
+        <product_name/>
         <roles/>
         <route_params/>
+        <setup_execution_type/>
+        <setup_layout/>
+        <skip_execution_page>false</skip_execution_page>
         <snc_created>false</snc_created>
         <status>published</status>
         <sys_class_name>help_guidance</sys_class_name>
@@ -22,7 +28,7 @@
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Asset search</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>help_guidance_d06fbc5693000210ced433277bba1052</sys_update_name>

@@ -322,7 +322,7 @@
             <sys_mod_count>4</sys_mod_count>
             <sys_name>sys_user</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Non Interactive Sessions" source="com.glide.security.non_interactive_users">316830a03cf1311068bcf327dfe37f1b</sys_package>
+            <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
             <sys_policy/>
             <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
             <sys_update_name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</sys_update_name>

@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>ud_from_utable</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var ud_from_utable = Class.create();
 ud_from_utable.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
@@ -33,7 +35,7 @@ ud_from_utable.prototype = Object.extendsObject(AbstractAjaxProcessor, {
         <sys_id>dc0c25b393b84210ced433277bba10be</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>ud_from_utable</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>sys_script_include_dc0c25b393b84210ced433277bba10be</sys_update_name>

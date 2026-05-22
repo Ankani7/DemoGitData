@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description>Calling userDetails in Client script</description>
+        <mobile_callable>false</mobile_callable>
         <name>UserDetails</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var UserDetails = Class.create();
 UserDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 	

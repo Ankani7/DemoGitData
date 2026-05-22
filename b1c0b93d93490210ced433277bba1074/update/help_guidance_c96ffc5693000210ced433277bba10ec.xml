@@ -6,11 +6,17 @@
         <checklist/>
         <context>dashboards</context>
         <description>Check the Occupancy dashboard to know the occupancy status and the headcount at your workplace.</description>
-        <eh_content display_value="occupancy-dashboard">456ffc5693000210ced433277bba10ec</eh_content>
+        <eh_content display_value="">456ffc5693000210ced433277bba10ec</eh_content>
+        <interaction_status/>
         <name>Occupancy dashboard</name>
         <order>300</order>
+        <process_definition/>
+        <product_name/>
         <roles/>
         <route_params/>
+        <setup_execution_type/>
+        <setup_layout/>
+        <skip_execution_page>false</skip_execution_page>
         <snc_created>false</snc_created>
         <status>published</status>
         <sys_class_name>help_guidance</sys_class_name>
@@ -22,7 +28,7 @@
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Occupancy dashboard</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
         <sys_update_name>help_guidance_c96ffc5693000210ced433277bba10ec</sys_update_name>

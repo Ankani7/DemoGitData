@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
+        <active>false</active>
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
@@ -47,9 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>short_description</field>
         <field_list>number,short_description,state,percent_complete</field_list>
-        <filter table="sn_test_management_test_plan">ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateIN1,2<item endquery="false" field="owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item display_value="1,2" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,2"/>
-        </filter>
+        <filter table="sn_test_management_test_plan">ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateIN1,2</filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -73,6 +72,7 @@
         <lower_limit/>
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
+        <no_bulk_migration>false</no_bulk_migration>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>

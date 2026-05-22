@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="sys_dictionary" version="2" view="sys_dictionary_table">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="a82374603c31311068bcf327dfe37ff6">028c7a4b93300210ced433277bba10fc</list_id>
+            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="b28e46709d12321055903da570aff0a8">028c7a4b93300210ced433277bba10fc</list_id>
             <order_by/>
             <position>0</position>
             <related_list>REL:a403d812eb321100d4360c505206fe52</related_list>
@@ -16,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="a82374603c31311068bcf327dfe37ff6">028c7a4b93300210ced433277bba10fc</list_id>
+            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="b28e46709d12321055903da570aff0a8">028c7a4b93300210ced433277bba10fc</list_id>
             <order_by/>
             <position>1</position>
             <related_list>REL:9355cd9b0a000704053ea63b163e74b9</related_list>
@@ -30,7 +30,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="a82374603c31311068bcf327dfe37ff6">028c7a4b93300210ced433277bba10fc</list_id>
+            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="b28e46709d12321055903da570aff0a8">028c7a4b93300210ced433277bba10fc</list_id>
             <order_by/>
             <position>2</position>
             <related_list>sys_schema_attribute_m2m.schema</related_list>
@@ -44,7 +44,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="a82374603c31311068bcf327dfe37ff6">028c7a4b93300210ced433277bba10fc</list_id>
+            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="b28e46709d12321055903da570aff0a8">028c7a4b93300210ced433277bba10fc</list_id>
             <order_by/>
             <position>3</position>
             <related_list>REL:936d24940a0007040df60be53657a3db</related_list>
@@ -58,7 +58,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="a82374603c31311068bcf327dfe37ff6">028c7a4b93300210ced433277bba10fc</list_id>
+            <list_id display_value="Dictionary Entry - Dictionary Table" name="sys_dictionary" related_list="NULL" sys_domain="global" view="b28e46709d12321055903da570aff0a8">028c7a4b93300210ced433277bba10fc</list_id>
             <order_by/>
             <position>4</position>
             <related_list>REL:aa6e720d0a0a0b8c000f785922ec5f96</related_list>
@@ -85,14 +85,14 @@
             <sys_id>028c7a4b93300210ced433277bba10fc</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_name>Dictionary Entry - Dictionary Table</sys_name>
-            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_package display_value="DemoTable" source="b1c0b93d93490210ced433277bba1074">b1c0b93d93490210ced433277bba1074</sys_package>
             <sys_policy/>
             <sys_scope display_value="DemoTable">b1c0b93d93490210ced433277bba1074</sys_scope>
             <sys_update_name>sys_ui_related_sys_dictionary_sys_dictionary_table</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-22 09:13:55</sys_updated_on>
             <sys_user/>
-            <view display_value="Dictionary Table" name="sys_dictionary_table">a82374603c31311068bcf327dfe37ff6</view>
+            <view display_value="Dictionary Table" name="sys_dictionary_table">b28e46709d12321055903da570aff0a8</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>
